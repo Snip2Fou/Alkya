@@ -1,0 +1,1020 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bignoodletitling');
+@font-face {
+  font-family: 'Big Noodle Titling';
+  src: url('./fonts/big_noodle_titling.ttf') format('truetype');
+}
+
+
+/* ========= Parametres Generales - START ========= */
+a{
+  color: black;
+  transition: 0.3s;
+}
+a:hover{
+  color:#FB8500;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+footer{
+  margin-top: 1%;
+}
+footer ul li a,footer ul li{
+  font-size: 1.5vh;
+  margin-bottom: 0.5rem;
+}
+figure {
+  margin: 0 0 1rem;
+}
+/* ========= Parametres Generales - END ========= */
+
+/* ========= Titles - START ========= */
+/* --- Accueil --- */
+.h2_accueil{
+  text-align: center;
+  font-family: 'bignoodletitling', sans-serif;
+  letter-spacing: 7px;
+  font-weight: 500;
+  font-size: 7vh;
+  margin-top: 5%;
+}
+.h5_accueil{
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+/* --- Actus --- */
+.h2_actu{
+  text-align: center;
+  font-family: 'bignoodletitling', sans-serif;
+  letter-spacing: 6px;
+  font-size: 10vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: black;
+}
+.h2_article{
+  text-align: center;
+  font-family: 'bignoodletitling', sans-serif;
+}
+
+/* --- AboutUs --- */
+.h2_about{
+  text-align: center;
+  font-family: 'bignoodletitling', sans-serif;
+  letter-spacing: 7px;
+  font-weight: 500;
+  font-size: 9vh;
+  color: black;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+/* --- Equipe --- */
+h1.titre_equipe{
+  color: #000000;
+  font-family: 'Big Noodle Titling';
+  font-size: 6vw;
+  text-align: center;
+  border: solid 5px;
+  border-radius: 30px;
+  border-color: #126782;
+  line-height: 125%;
+  display: flex;
+  justify-content: center;
+  margin-left: -10vw;
+  margin-right: 20%;
+}
+
+/* ---Line UP --- */
+
+.titre_line_up{
+  font-family: 'Big Noodle Titling';
+  font-size: 7vw;
+  color: #000000;
+  letter-spacing: 0.3vw;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  text-decoration-thickness: 0.4vw ;
+  text-decoration-color: rgb(223, 203, 125);
+  margin-bottom: 3%;
+}
+
+.titre_line_up_joueurs{
+  font-family: 'Big Noodle Titling';
+  font-size: 4vw;
+  color: #000000;
+  letter-spacing: 0.3vw;
+  padding-left: 8%;
+}
+
+.nom_pseudo_prenom_joueur{
+  position: absolute;
+  z-index: 2;
+  font-family: 'Big Noodle Titling';
+  letter-spacing: 0.3vw;
+  margin-left: 6%;
+  color: #FFFFFF ;
+  margin-top: 55%;
+  font-size: 3.5vw;
+  text-shadow: #126782 0.2vw 0.1vw ;
+}
+
+.pseudo{
+  color: #126782;
+  text-shadow: #126782 0.1vw 0.1vw;
+}
+.nom_pseudo_prenom_joueur2{
+  position: absolute;
+  z-index: 2;
+  font-family: 'Big Noodle Titling';
+  letter-spacing: 0.3vw;
+  margin-left: 6%;
+  color: #FFFFFF ;
+  margin-top: 45%;
+  font-size: 3.5vw;
+  text-shadow: #126782 0.2vw 0.1vw ;
+}
+
+.titre_line_up_coach{
+  font-family: 'Big Noodle Titling';
+  font-size: 4vw;
+  color: #000000;
+  letter-spacing: 0.3vw;
+  padding-left: 8%;
+}
+
+/* --- Equipe --- */
+
+.nom_pseudo_prenom_joueur_profil{
+  margin-top: 15%;
+  font-family: "Big Noodle Titling";
+  font-size: 6vw;
+  color: #FFFFFF;
+  text-shadow: #126782 0.3vw 0.2vw, #126782 0 0 0.3vw, #126782 0 0 0.3vw; 
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color : #126782;
+  letter-spacing: 0.3vw;
+  margin-bottom: 7%;
+}
+
+/* --- Joueur --- */
+
+.naissance_joueur, .lieu_naissance_joueur, .taille_joueur, .poids_joueur, .arrivee_club_joueur, .jeu_joueur{
+  font-family: "Roboto";
+  color: #126782;
+  font-size: 2vw;
+  letter-spacing: 0.2vw;
+  font-weight: 500;
+  margin-bottom: 7%;
+}
+
+.pseudo_joueur_carriere{
+  font-family: "Big Noodle Titling";
+  font-size: 6vw;
+  color: #126782;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.4vw ;
+}
+
+.titre_parcours_joueur, .titre_palmares_joueur{
+  font-family: "Big Noodle Titling";
+  font-size: 4vw;
+  color: #126782;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.3vw ;
+  margin-top: 2.5vw;
+}
+
+.titre_palmares_joueur{
+  margin-top: 5vw;
+  margin-bottom: 4vw;
+}
+
+.titre_reseau_joueur, .titre_boutique_joueur{
+  font-family: "Big Noodle Titling";
+  font-size: 7vw;
+  color: #126782;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.3vw ;
+  text-shadow: #FFFFFF 0.2vw 0.1vw;
+  -webkit-text-stroke: 1.5px;
+  -webkit-text-stroke-color : #000000;
+}
+
+.titre_element_boutique_joueur{
+  font-family: "Roboto";
+  font-size: 2vw;
+  color: #FFFFFF;
+  margin-top: 2vw;
+  text-shadow: #000000 0.1vw 0.1vw ;
+}
+
+.titre_element_boutique_joueur2{
+  font-family: "Roboto";
+  font-size: 2vw;
+  color: #FFFFFF;
+  margin-top: 1vw;
+  text-shadow: #000000 0.1vw 0.1vw ;
+}
+/* ========= Titles - END ========= */
+
+
+
+/* ========= Text - START ========= */
+/* --- Footer --- */
+#h5_footer{
+  font-size: 2vh;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+#h3_footer{
+  text-align: center;
+  font-size: 8vh;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: 'bignoodletitling', sans-serif;
+}
+/* --- Accueil --- */
+.p_accueil{
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  font-weight: 600;
+  font-size: 2vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* --- Actus --- */
+.p_article{
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 2vh;
+  margin-top: 10%;
+}
+#pagination li{
+  background-color:#BED5D9;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  border: solid; 
+  border-color: #BED5D9;
+  border-radius: 10%;
+  text-align: center;
+}
+#pagination li span {
+  font-size: 5vh;
+  font-family: 'bignoodletitling', sans-serif;
+  color: black;
+}
+
+/* --- AboutUs --- */
+.p_about{
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-top: 10%;
+}
+
+/* --- Equipe --- */
+.texte_lol{
+  width: 40%;
+  margin-bottom: -17%;
+  position: relative;
+}
+
+.texte_valo{
+  width: 40%;
+  margin-bottom: -13%;
+  position: relative;
+}
+
+.texte_jeu3{
+  width: 40%;
+  margin-bottom: -22%;
+  position: relative;
+}
+
+/* --- Line UP --- */
+
+.texte_line_up{
+  position: absolute;
+  width: 20%;
+}
+
+/* --- Joueur --- */
+
+.naissance_joueur, .lieu_naissance_joueur, .taille_joueur, .poids_joueur, .arrivee_club_joueur, .jeu_joueur{
+  font-family: "Roboto";
+  color: #126782;
+  font-size: 2vw;
+  letter-spacing: 0.2vw;
+  font-weight: 500;
+  margin-bottom: 7%;
+}
+
+.pseudo_joueur_carriere{
+  font-family: "Big Noodle Titling";
+  font-size: 6vw;
+  color: #126782;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.4vw ;
+}
+
+.titre_parcours_joueur, .titre_palmares_joueur{
+  font-family: "Big Noodle Titling";
+  font-size: 4vw;
+  color: #126782;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.3vw ;
+  margin-top: 2.5vw;
+}
+
+.expand_carriere{
+  display: flex;
+  justify-content: center;
+  color: #126782;
+  font-family: "Big Noodle Titling";
+  font-size: 3.5vw;
+  letter-spacing: 0.3vw;
+}
+
+.date_parcours{
+  font-family: "Roboto";
+  font-size: 1.7vw;
+  color: #126782;
+  display: flex;
+  justify-content: center;
+}
+
+.date_palmares{
+  font-family: "Roboto";
+  font-size: 1.7vw;
+  color: #126782;
+  display: flex;
+  justify-content: center;
+}
+
+/* ========= Text - END ========= */
+
+
+/* ========= Images - START ========= */
+/* --- Accueil --- */
+.img_accueil{
+  width: 16vw;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+/* --- Actus --- */
+.img_article{
+  border-radius: 30px;
+  width: 1250px;
+}
+.img_esport{
+  border-radius: 1%;
+  max-height: auto;
+  max-width: 700px;
+  cursor: pointer;
+  border: solid;
+  border-radius: 10px;
+}
+.img_esport2{
+  border-radius: 1%;
+  height: auto;
+  width: 735px;
+  cursor: pointer;
+  border: solid;
+  border-radius: 50px;
+  box-shadow: 10px 5px 5px gray;
+}
+.img_esport3{
+  border-radius: 1%;
+  max-height: auto;
+  max-width: 700px;
+  cursor: pointer;
+  border: solid;
+  border-color: gray;
+  border-radius: 50px;
+  box-shadow: 10px 5px 5px gray;
+}
+.div_actus figure img{
+  max-width: 600px;
+  height: auto;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(0.8);  
+}
+.div_actus figure img:hover{
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  background: none;
+}
+
+/* --- AboutUs --- */
+.img_about{
+  border-radius: 100%;
+  max-height: 30vh;
+  width: auto;
+}
+
+
+/* ~~~~ Figure ~~~~ */
+/* --- Actus --- */
+.fig_article{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size:3vh;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+/* --- AboutUs --- */
+.fig_about{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+.div_about-logo figure{
+  text-align: center;
+}
+
+/* --- Equipe --- */
+.team_jeu{
+  width: 100%;
+  margin-top: 9%;
+  border-radius: 100px;
+}
+
+.logo_lol{
+  width: 18%;
+  margin-top: -11%;
+}
+
+.logo_valo{
+  width: 18%;
+  margin-top: -11%;
+  border-radius: 10%;
+}
+
+.logo_r6{
+  width: 19%;
+  margin-top: -11%;
+  border-radius: 100%;
+}
+
+.logo_rl{
+  width: 35%;
+  margin-top: -11%;
+}
+
+/* --- line up --- */
+
+#img_line_up{
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  padding-top: 3%;
+}
+
+.line_up{
+  width: 95%;
+  border-radius: 150px;
+}
+
+.joueur{
+  position: absolute;
+  z-index: 1;
+  width: 23vw;
+  border-radius: 50px;
+}
+
+.joueur2{
+  position: absolute;
+  z-index: 1;
+  width: 23vw;
+  border-radius: 50px;
+
+}
+
+/* --- Joueur --- */
+
+.img_profil_joueur{
+  width: 36vw;
+  border-radius: 50px;
+  margin-top: 10%;
+  margin-left: 23%;
+  border: 1px solid;
+  border-color: #000000;
+  box-shadow: #000000 0.15vw 0.1vw ;
+}
+
+.drapeau_joueur_profil{
+  vertical-align: middle;
+  width: 5vw;
+  border-radius: 12px;
+}
+
+.drapeau_joueur_carriere{
+  width: 10vw;
+  vertical-align: middle;
+  border-radius: 12px;
+  margin-left: 5vw;
+}
+
+.img_team_parcours, .img_team_palmares{
+  width: 7vw;
+}
+
+.img_carriere{
+  width: 45vw;
+  height: 70vw;
+  padding-left: 20%;
+}
+
+.logo_twitter{
+  width: 13vw;
+}
+
+.logo_insta{
+  width: 10vw;
+  margin-top: 2vw;
+}
+
+.logo_twitch{
+  width: 10vw;
+  margin-top: 2vw;
+}
+
+.logo_reseau{
+  width: 10vw;
+  margin-top: 2vw;
+}
+
+.img_element_boutique{
+  width: 24.6vw;
+  height: 24.6vw;
+  margin-top: 0.2vw;
+}
+
+
+
+/* ========= Images - END ========= */
+
+
+/* ========= Div - START ========= */
+/* --- Accueil --- */
+.div_accueil{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 4%;
+}
+
+/* --- Actus --- */
+.div_article{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.div_actus{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 6vw;
+}
+
+
+#pagination{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* --- AboutUs --- */
+.div_about-logo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between ;
+  margin-bottom: 5%;
+}
+
+.row.icons_about{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 18%;
+  margin-bottom: 5%;
+}
+/* --- Line UP --- */
+
+.line_up_footer{
+  margin-top: 5%;
+}
+
+/*  --- Carousel --- */
+
+.carousel_equipes_accueil{
+  margin-top: 4vw;
+}
+
+.img_carousel_equipes{
+  width: 80vw;
+  height: 60vh;
+  max-width: 60%;
+  border-radius: 50px;
+  border: #000000 2px solid;
+  transition: all 200ms ease-in;
+}
+.img_carousel_equipes:hover{
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  background: none;
+  border-color: #FB8500;
+}
+
+.material-icons.carousel_equipes{
+  font-size: 5vw;
+  cursor: pointer;
+}
+
+
+/* ========= Div - END ========= */
+
+
+
+/* ========= Logo - START ========= */
+.alkya_logo-col{
+  max-width: 100px;
+  height: auto;
+  opacity: 1;
+  position:absolute;
+
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+.alkya_logo-bla{
+  max-width: 100px;
+  height: auto;
+  opacity: 1;
+
+}
+.alkya_logo-col:hover{
+  opacity: 0;
+}
+
+#div_alkya_logo{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+#logo_footer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 20vh;
+  margin-bottom: 5vh;
+}
+#img_logo_footer{
+  opacity: 1;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  transition: all ease 0.4s;
+}
+
+#div_brand_footer {
+  display: flex;
+  justify-content: space-around;
+}
+.alkya_logo-bla {
+  max-width: 10.9vh;
+}
+.alkya_logo-col {
+  max-width: 10.9vh;
+}
+/* ========= Logo - END ========= */
+
+
+
+
+/* ========= NavBar - START ========= */
+nav, #nav_title a{
+  transition: ease-in-out 0.5s;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: black;
+  font-family: 'bignoodletitling', sans-serif;
+  font-size: 5vh;
+  text-decoration: none;
+}
+
+#nav_title a:hover{
+  color:#FB8500;
+  transition: 0.3s;
+  text-shadow: 1px 1px 1px #FB8500, 0 0 1em rgb(0, 0, 0), 0 0 0.2em #000000;
+}
+.center-align {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  letter-spacing: 1px; 
+}
+/* ========= NavBar - END ========= */
+
+
+
+
+
+/* ========= Autres - START ========= */
+
+/* --- NavBar --- */
+
+#hr_nav{
+  border: 2px solid #126782;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 0.5%;
+}
+
+/* --- About Us --- */
+
+.material-icons.about{
+  font-size: 9vw
+}
+
+/* --- Equipe --- */
+
+.row.equipes{
+  display: flex;
+  justify-content: center;
+}
+
+.row.bis.equipe{
+  padding: 2%;
+  margin-bottom: 2%;
+}
+/* --- Line Up --- */
+
+.hr_titre_line_up_joueurs{
+  border: 3px solid;
+  border-color: #126782;
+  margin-left: 7%;
+  margin-right: 75%;
+}
+
+.row.line_up_joueurs{
+  padding: 5%;
+  padding-left: 7%;
+  margin: center;
+  margin-left: 6%;
+  margin-bottom: 33%;
+}
+
+.col.s4{
+  position: relative;
+}
+
+.row.line_up_joueurs2{
+  padding: 5%;
+  padding-left: 7%;
+  margin: center;
+  margin-left: 15%;
+  margin-bottom: 40%;
+}
+
+.col.s6{
+  position: relative;
+}
+
+.hr_titre_line_up_coach{
+  border: 3px solid;
+  border-color: #126782;
+  margin-left: 7%;
+  margin-right: 75%;
+}
+
+.box_line_up{
+  box-sizing: content-box;
+  height: 40vw;
+}
+
+/* --- Joueur --- */
+
+.pseudo_profil{
+  color: #126782;
+  text-shadow: 0 0;
+}
+
+.taille_joueur, .poids_joueur{
+  word-spacing: 2vw;
+}
+
+.arrivee_club_joueur_date, .jeu_joueur_marge{
+  margin-left: 3.5vw ;
+}
+.material-icons.expands{
+  font-size: 4vw;
+}
+
+.hr_pseudo_parcours_joueur{
+  margin-top: 4vw;
+  border: 3.5px solid;
+  border-color: #126782;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+.row.team_parcours_joueur{
+  display: flex;
+  justify-content: center;
+  margin-top: 3vw;
+}
+
+.material-icons.arrow{
+  font-size: 7vw;
+  vertical-align: middle;
+}
+
+.hr_reseau, .hr_boutique{
+  border: 4px solid;
+  border-color: #126782;
+  margin-left: 34vw;
+  margin-right: 34vw;
+  box-shadow: #000000 0.1vw 0.1vw 0.1vw;
+}
+
+.row.reseau_joueur{
+  margin-top: 10vw
+}
+
+.hr_reseau_boutique{
+  margin-top: 5vw;
+}
+
+.row.boutique_joueur{
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0;
+  margin-top: 6vw;
+}
+
+.box_element_boutique{
+  box-sizing: border-box;
+  width: 25vw;
+  height: 31vw;
+  background-color: #126782;
+  margin-left: 3.25vw;
+  box-shadow: #717171 0.1vw 0.1vw 0.1vw 0.1vw;
+}
+
+.hr_boutique_footer{
+  margin-top: 5vw;
+}
+
+.col.s3.reseau_joueur{
+  display: flex;
+  justify-content: center;
+}
+/* ========= Autres - END ========= */
+
+
+
+
+
+
+/* ========= Responsive - START ========= */
+@media only screen and (max-width : 1280px) {
+  /* --- Accueil --- */
+  .img_accueil{
+    max-width: 200px;
+  }  
+  
+  /* --- Actus --- */
+  .div_actus figure img{
+    max-width: 700px;
+  }
+
+  /* --- About --- */
+  .div_about-logo figure img {
+    max-width: 150px;
+  }
+}
+
+
+@media only screen and (max-width : 900px) {
+  /* --- Header --- */
+  nav, #nav_title a{
+    transition: ease-in-out 0.5s;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'bignoodletitling', sans-serif;
+    text-decoration: none;
+  }
+  #div_alkya_logo img{
+    margin-top: 2.6rem;
+    max-width: 9vh;
+  }
+  #alkya_logo-col{
+    position: absolute;
+  }
+  .alkya_logo-clo, .alkya_logo-bla{
+    max-width: 50px;
+    height: auto;
+  }
+
+  /* --- Footer --- */
+  #logo_footer{
+    max-width: 10vh;
+  }
+  footer div img{
+    max-width: 6vh;
+  }
+  #h3_footer{
+    font-size: 4vh;
+  }
+  #div_brand_footer {
+    flex-wrap: wrap;
+  }
+  
+
+  /* --- Actus --- */
+  #pagination li{
+    max-height: 50px;
+    max-width: 50px;
+  }
+  #pagination li span{
+    font-size: 4vh;
+  }
+}
+@media only screen and (max-width : 880px) {
+  /* --- Header --- */
+  header #hr_nav{
+    margin-top: 3rem;
+  }
+
+  /* --- Actus --- */
+  .div_actus figure img{
+    max-width: 700px;
+  }
+}
+
+
+@media only screen and (max-width : 675px) {
+  header #hr_nav{
+    margin-top: 6rem;
+  }
+
+  /* --- Actus --- */
+  .div_actus figure img{
+    max-width: 400px;
+    margin-bottom: -15px;
+  }
+}
+
+
+@media only screen and (max-width : 570px) {
+  #hr_nav{
+    margin-top: 5rem;
+  }
+
+  .img_accueil{
+    max-width: 150px;
+  }
+}
+/* ========= Responsive - END ========= */
