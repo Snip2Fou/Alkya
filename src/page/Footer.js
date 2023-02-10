@@ -93,17 +93,16 @@ function Footer() {
             </ul>
           </div>
           <div className="col s4 l3">
-            <ul>
-              <li><Link className="text-lighten-3" to={"./docs/CGU_Alkya.pdf"} >CGU</Link></li>
-              <li><Link className="text-lighten-3" to={"./docs/Mentions_legales.pdf"} >Mentions Légales</Link></li>
-              <li><a className="text-lighten-3" href="#">Politique de Confidentialité</a></li>
+            <ul> 
+              <li><a className="text-lighten-3"  href="./docs/CGU_Alkya.pdf" >CGU</a></li>
+              <li><a className="text-lighten-3" href="./docs/Mentions_legales.pdf" >Mentions Légales</a></li>
+              <li><a className="text-lighten-3" href="">Politique de Confidentialité</a></li>
             </ul>
           </div>
           <div className="col s3 l3 center-align hide-on-small-only">
           <Link to = { '/'}>
               <img alt="Logo Alkya Colored" className="alkya_logo-col" src="/img/Logo-alkya_logo-colored.png"/>
               <img alt="Logo Alkya Black" className="alkya_logo-bla" src="/img/Logo-alkya_logo-black.png"/>
-
             </Link>
           </div>
 
