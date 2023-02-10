@@ -102,6 +102,7 @@ function Line_Up(){
                 <h2 className="titre_line_up_coach">COACH</h2>
                 <hr className="hr_titre_line_up_coach"></hr>
                 {/* Liste coach - START */}
+                <div className="box_line_up" >
                 <div className="row line_up_joueurs">
                     <div className="col s4">
                         <img src={liste_jeux[jeu][0]["coach"][0][0]} alt="photo_joueur" className="joueur"/>
@@ -119,6 +120,7 @@ function Line_Up(){
                         <img src={liste_jeux[jeu][0]["coach"][2][0]} alt="photo_joueur" className="joueur"/>
                         <h3 className="nom_pseudo_prenom_joueur">{liste_jeux[jeu][0]["coach"][2][1]}<br></br><span className="pseudo">''{liste_jeux[jeu][0]["coach"][2][2]}''</span><br></br>{liste_jeux[jeu][0]["coach"][2][3]}</h3>
                     </div>}
+                </div>
                 </div>
                 {/* Liste joueur - END */}
             </div>
