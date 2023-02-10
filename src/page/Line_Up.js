@@ -16,7 +16,7 @@ function Line_Up(){
                                                     ["../img_equipe/img_line_up/lol/joueur/skeanz.PNG","DUNCAN","SKEANZ","MARQUET"]],
                                             coach : [["../img_equipe/img_line_up/lol/coach/nerroh.png","STEFAN","NERROH","PEREIRA"]]}],
 
-                        valorant : [{officiel : ["/img_equipe/img_texte_jeu/texte_valo.png","/img_equipe/img_line_up/valorant/img_line_up_valo.PNG"],
+                        valorant : [{officiel : ["/img_equipe/img_texte_jeu/texte_valo.png","/img_equipe/img_line_up/valorant/img_line_up_valo.png"],
                                             joueurs : [["../img_equipe/img_line_up/valorant/joueur/ceNder.png","JOKUBAS","CENDER","LABUTIS"],
                                                     ["../img_equipe/img_line_up/valorant/joueur/bonecold.png","SANTERI","BONECOLD","SASSI"],
                                                     ["../img_equipe/img_line_up/valorant/joueur/molsi.png","MICHAL","MOLSI","LACKI"],
