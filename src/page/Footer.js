@@ -94,8 +94,8 @@ function Footer() {
           </div>
           <div className="col s4 l3">
             <ul>
-              <li><Link className="text-lighten-3" to={"./docs/CGU_Alkya.pdf"} target="_blank" >CGU</Link></li>
-              <li><Link className="text-lighten-3" to={"./docs/Mentions_legales.pdf"} target="_blank" >Mentions Légales</Link></li>
+              <li><Link className="text-lighten-3" to={"./docs/CGU_Alkya.pdf"} >CGU</Link></li>
+              <li><Link className="text-lighten-3" to={"./docs/Mentions_legales.pdf"} >Mentions Légales</Link></li>
               <li><a className="text-lighten-3" href="#">Politique de Confidentialité</a></li>
             </ul>
           </div>
