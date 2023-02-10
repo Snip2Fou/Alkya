@@ -8,7 +8,7 @@ function Line_Up(){
     // Recupère le jeu regardé 
     let {jeu} = useParams();
     // Liste des infomations sur les jeux
-    const liste_jeux = {league_of_legends : [{officiel : ["../img_equipe/img_texte_jeu/texte_lol.png","../img_equipe/img_line_up/lol/img_line_up_lol.PNG"],
+    const liste_jeux = {league_of_legends : [{officiel : ["/img_equipe/img_texte_jeu/texte_lol.png","/img_equipe/img_line_up/lol/img_line_up_lol.PNG"],
                                             joueurs : [["../img_equipe/img_line_up/lol/joueur/whiteinn.png","ALEXANDRU","WHITEINN","KOLOZSVARI"],
                                                     ["../img_equipe/img_line_up/lol/joueur/cabochard.png","LUCAS","CABOCHARD","SIMON MESLET"],
                                                     ["../img_equipe/img_line_up/lol/joueur/kaori.png","MUHAMMED","KAORI","SENTURK"],
@@ -25,7 +25,7 @@ function Line_Up(){
                                             coach : [["../img_equipe/img_line_up/valorant/coach/salah.png","SALAH","SALAH","BARAKAT"],
                                                     ["../img_equipe/img_line_up/valorant/coach/gorilla.png","HARRY","GORILLA","MEPHAM"]]}],
                         
-                        raimbow_six_siege : [{officiel : ["../img_equipe/img_texte_jeu/texte_raimbowsix.png","../img_equipe/img_line_up/r6/img_line_up_r6.png"],
+                        raimbow_six_siege : [{officiel : ["/img_equipe/img_texte_jeu/texte_raimbowsix.png","/img_equipe/img_line_up/r6/img_line_up_r6.png"],
                                             joueurs : [["../img_equipe/img_line_up/r6/joueur/hicks.png","THEOPHILE","HICKS","DUPONT"],
                                                     ["../img_equipe/img_line_up/r6/joueur/risze.png","VALENTIN","RISZE","LIRADELFO"],
                                                     ["../img_equipe/img_line_up/r6/joueur/alphama.png","LEO","ALPHAMA","ROBINE"],
@@ -33,7 +33,7 @@ function Line_Up(){
                                                     ["../img_equipe/img_line_up/r6/joueur/korey.png","LUKAS","KOREY","ZWINGMANN"]],
                                             coach : [["../img_equipe/img_line_up/r6/coach/gig.png","ELLIS","GIG","HINDLE"]]}],
 
-                        rocket_league : [{officiel : ["../img_equipe/img_texte_jeu/texte_rocketleague.png","../img_equipe/img_line_up/rl/img_line_up_rl.png"],
+                        rocket_league : [{officiel : ["/img_equipe/img_texte_jeu/texte_rocketleague.png","/img_equipe/img_line_up/rl/img_line_up_rl.png"],
                                             joueurs : [["../img_equipe/img_line_up/rl/joueur/jknaps.png","JACOB","JKNAPS","KNAPMAN"],
                                                     ["../img_equipe/img_line_up/rl/joueur/kronovi.png","CAMERON","KRONOVI","BILLS"],
                                                     ["../img_equipe/img_line_up/rl/joueur/rizzo.png","DILLON","RIZZO","RIZZO"]],
