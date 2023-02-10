@@ -38,7 +38,7 @@ function Joueur(){
                                     carriere : ["/img_equipe/img_line_up/lol/joueur/skeanz_carriere.jpg"],
                                     reseau : ["https://twitter.com/Skeanz_lol","https://www.instagram.com/duncan_marquet/","https://www.twitch.tv/skeanz","https://lolpros.gg/player/skeanz","/img_equipe/img_logo/logo_lol.png"]}],
 
-                        cender : [{info : ["/img_equipe/img_line_up/valorant/joueur/cender_profil.png","JOKUBAS","CENDER","LABUTIS","30 OCTOBRE 2001", "VILNIUS, LITUANIE","/img_equipe/img_drapeau/drapeau_lituanie.png","1M68", "92KG","FEVRIER 2021","VALORANT"],
+                        cender : [{info : ["/img_equipe/img_line_up/valorant/joueur/ceNder_profil.png","JOKUBAS","CENDER","LABUTIS","30 OCTOBRE 2001", "VILNIUS, LITUANIE","/img_equipe/img_drapeau/drapeau_lituanie.png","1M68", "92KG","FEVRIER 2021","VALORANT"],
                                     parcours : ["/img_equipe/img_logo_team/Alltheragelogo.png","2020-2020","/img_equipe/img_logo_team/exile_esport_logo.png","2020-2021","/img_equipe/img_logo_team/alkya_logo.png","2021"],
                                     palmares : ["VALORANT Open Tour","/img_equipe/img_palmares/Valorant_open_tour_logo.png","Novembre 2021","VCT 2022","/img_equipe/img_palmares/Valorant_champion_tour_logo.png","Janvier 2022", "VRL 2022","/img_equipe/img_palmares/VRL_logo.png","Juillet 2022"],
                                     carriere : ["/img_equipe/img_line_up/valorant/joueur/cender_carriere.jpg"],
