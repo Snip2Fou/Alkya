@@ -14,7 +14,7 @@ function Joueur(){
                                     carriere : ["/img_equipe/img_line_up/lol/joueur/whiteinn_carriere.jpg"],
                                     reseau : ["https://twitter.com/Whitein15","","","https://lolpros.gg/player/whiteinn","/img_equipe/img_logo/logo_lol.png"]}],
                        
-                        cabochard : [{info : ["/img_equipe/img_line_up/lol/joueur/cabochard_profil.png","LUCAS","CABOCHARD","SIMON MESLET","15 AVRIL 1997", "CUVILLERS, FRANCE","/img_equipe/img_drapeau/drapeau_francais.png","1M85", "84KG","MAI 2021","LEAGUE OF LEGENDS"],
+                        cabochard : [{info : ["/img_equipe/img_line_up/lol/joueur/cabochard_profil.PNG","LUCAS","CABOCHARD","SIMON MESLET","15 AVRIL 1997", "CUVILLERS, FRANCE","/img_equipe/img_drapeau/drapeau_francais.png","1M85", "84KG","MAI 2021","LEAGUE OF LEGENDS"],
                                     parcours : ["/img_equipe/img_logo_team/gambit_logo.png","2014-2015","/img_equipe/img_logo_team/Vitality_logo.png","2015-2020","/img_equipe/img_logo_team/alkya_logo.png","2021"],
                                     palmares : ["IEM Season 9","/img_equipe/img_palmares/ESL_logo.png","Decembre 2014","European Masters","/img_equipe/img_palmares/EUM_logo.png","Octobre 2021","European Masters","/img_equipe/img_palmares/EUM_logo.png","Mai 2022"],
                                     carriere : ["/img_equipe/img_line_up/lol/joueur/cabochard_carriere.jpg"],
@@ -32,7 +32,7 @@ function Joueur(){
                                     carriere : ["/img_equipe/img_line_up/lol/joueur/saken_carriere.jpg"],
                                     reseau : ["https://twitter.com/Saken_lol","https://www.instagram.com/kc_saken/","https://www.twitch.tv/saken_lol","https://lolpros.gg/player/saken","/img_equipe/img_logo/logo_lol.png"]}],
                                     
-                        skeanz : [{info : ["/img_equipe/img_line_up/lol/joueur/skeanz_profil.png","DUNCAN","SKEANZ","MARQUET","25 SEPTEMBRE 2000", "PARIS, FRANCE","/img_equipe/img_drapeau/drapeau_francais.png","1M71", "67KG","JANVIER 2023","LEAGUE OF LEGENDS"],
+                        skeanz : [{info : ["/img_equipe/img_line_up/lol/joueur/skeanz_profil.PNG","DUNCAN","SKEANZ","MARQUET","25 SEPTEMBRE 2000", "PARIS, FRANCE","/img_equipe/img_drapeau/drapeau_francais.png","1M71", "67KG","JANVIER 2023","LEAGUE OF LEGENDS"],
                                     parcours : ["/img_equipe/img_logo_team/solary_logo.png","2018-2019","/img_equipe/img_logo_team/Vitality_logo.png","2019-2022","/img_equipe/img_logo_team/alkya_logo.png","2023"],
                                     palmares : ["Coupe de France","/img_equipe/img_palmares/Coupe_de_France_logo.webp","Novembre 2022"],
                                     carriere : ["/img_equipe/img_line_up/lol/joueur/skeanz_carriere.jpg"],
